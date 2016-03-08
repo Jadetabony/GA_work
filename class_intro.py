@@ -8,11 +8,11 @@ class Introduction(object):
         self.hobby1 = hobby1
         self.hobby2 = hobby2
         self.fun_fact= fun_fact
-        names = []
+        class_names = []
 
     def add_name(self):
-        if not self.name in self.names:
-            names.append(self.name)
+        if not self.name in self.class_names:
+            self.class_names.append(self.name)
             print self.name, "has not been introduced!"
         else:
             print self.name, "has been introduced."
