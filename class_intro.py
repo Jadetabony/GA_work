@@ -31,6 +31,3 @@ class Introduction(object):
             Introduction.class_names[self.name] = "introduced"
 
 
-jade.print_intro()
-
-jade.add_name()
